@@ -1,0 +1,3 @@
+@id=f7abea24-72b8-4898-8982-c8b80a6bbffe
+
+GET http://localhost:5250/workpieces/{{id}}

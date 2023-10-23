@@ -1,0 +1,12 @@
+POST http://localhost:5250/workpieces
+Content-Type: application/json
+
+
+{
+    "name": "W",
+    "description": "Das ist mein Werkstück 2",
+    "material": "Stahl"
+}
+
+###
+GET http://localhost:5250/workpieces/86497baf-99e8-4822-a76b-26b3a93053d1

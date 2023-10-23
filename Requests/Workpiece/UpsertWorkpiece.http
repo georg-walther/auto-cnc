@@ -1,0 +1,11 @@
+@id=f7abea24-72b8-4898-8982-c8b80a6bbffe
+
+PUT http://localhost:5250/workpieces/{{id}}
+Content-Type: application/json
+
+
+{
+    "name": "Werkstück 001",
+    "description": "Das ist mein Werkstück 1",
+    "material": "Stahl"
+}
